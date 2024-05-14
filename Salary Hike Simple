@@ -1,0 +1,10 @@
+a = int(input())
+b = int(input())
+result = 0
+if(b == 3):
+    result = (a + (a*0.15))
+elif(b == 4):
+    result = (a + (a*0.07))
+elif(b == 5):
+    result = (a + (a*0.05))
+print(int(result))
