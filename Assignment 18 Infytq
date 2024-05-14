@@ -1,0 +1,12 @@
+a = int(input())
+string = input()
+if(string == "Euro"):
+    print(a*0.01417)
+elif(string == "British Pound"):
+    print(a*0.0100)
+elif(string == "Australian Dollar"):
+    print(a*0.02140)
+elif(string == "Canadian Dollar"):
+    print(a*0.02027)
+else:
+    print("Invalid currency name")
